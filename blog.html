@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog | Universal Music</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+  <link rel="icon" href="img/favicon.png" type="image/png" />
+</head>
+<body>
+
+  
+  <!-- 🔝 Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="logo">
+      <img src="imagenes/logo.png" alt="Universal Music Logo">
+      <span class="nombre-sitio">Universal Music</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="beats.html">Beats</a></li>
+      <li><a href="cursos.html">Cursos</a></li>
+      <li><a href="blog.html" class="activo">Blog</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </header>
+
+  <!-- 📚 Encabezado del Blog -->
+  <section class="cursos blog">
+    <h2>Blog Educativo</h2>
+    <p class="intro justificado">En esta sección compartimos artículos, guías y consejos sobre producción musical, creación de beats, educación artística y más. ¡Sigue aprendiendo con nosotros!</p>
+  </section>
+
+  <!-- 📝 Entradas del Blog -->
+  <section class="lista-cursos lista-blog">
+
+    <!-- 🧠 Artículo 1 -->
+    <div class="curso articulo-blog">
+      <h3>Cómo crear tus propios beats desde cero</h3>
+      <p>Descubre paso a paso cómo producir tus primeros beats sin necesidad de un estudio profesional...</p>
+      <a href="#" class="btn-curso">Leer más</a>
+    </div>
+
+    <!-- 🎙 Artículo 2 -->
+    <div class="curso articulo-blog">
+      <h3> Tips para grabar tu voz como un pro</h3>
+      <p>¿Quieres que tu voz suene clara y poderosa? Aquí te damos consejos para lograr grabaciones de alta calidad desde casa.</p>
+      <a href="#" class="btn-curso">Leer más</a>
+    </div>
+
+    <!-- 🎵 Artículo 3 -->
+    <div class="curso articulo-blog">
+      <h3>5 apps gratuitas para aprender música</h3>
+      <p>Estas herramientas te ayudarán a estudiar, practicar y mejorar tus habilidades musicales desde el móvil.</p>
+      <a href="#" class="btn-curso">Leer más</a>
+    </div>
+  </section>
+
+  <!-- 📩 Formulario de Contacto -->
+  <section class="contacto" id="contacto">
+    <h2>¿Te interesa colaborar o tienes dudas?</h2>
+    <p class="justificado">Déjanos tu mensaje y te responderemos lo más pronto posible. Siempre estamos abiertos a nuevos proyectos, entrevistas o colaboraciones educativas.</p>
+    <form class="formulario-contacto">
+      <div class="campo">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" placeholder="Tu nombre completo" required>
+      </div>
+      <div class="campo">
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" placeholder="tucorreo@example.com" required>
+      </div>
+      <div class="campo">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+      </div>
+      <button type="submit" class="btn-enviar">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <!-- 👣 Footer -->
+  <footer class="footer">
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+    <a href="#" class="btn-subir">↑</a>
+    <p class="copyright">© 2025 Universal Music. Todos los derechos reservados.</p>
+    <span class="aviso-legal">Aviso Legal</span>
+  </footer>
+
+  <!-- JS Swiper & Script -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

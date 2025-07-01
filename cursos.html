@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cursos | Universal Music</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <link rel="icon" href="img/favicon.png" type="image/png" />
+</head>
+<body>
+
+
+  <!-- 🔝 Navbar -->
+  <header id="navbar" class="navbar">
+    <div class="logo">
+      <img src="imagenes/logo.png" alt="Universal Music">
+      <span class="nombre-sitio">Universal Music</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="beats.html">Beats</a></li>
+      <li><a href="cursos.html" class="activo">Cursos</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </header>
+
+  <!-- 📚 Sección Cursos -->
+  <section class="cursos">
+    <h2>Formación Profesional</h2>
+    <p class="intro justificado">Explora nuestros cursos diseñados por productores y artistas expertos. Aprenderás desde cero o perfeccionarás tus habilidades con técnicas actuales.</p>
+
+    <div class="lista-cursos">
+      <div class="curso">
+        <h3>Producción Musical</h3>
+        <p><strong>profesor:</strong> Juan Martínez</p>
+        <p class="justificado">Domina las bases de la producción: DAWs, estructuras, efectos y mezcla básica.</p>
+      </div>
+      <div class="curso">
+        <h3>Curso de Mezcla Avanzada</h3>
+        <p><strong>profesor:</strong> Laura Díaz</p>
+        <p class="justificado">Aprende ecualización, compresión, paneo y técnicas profesionales de mastering.</p>
+      </div>
+      <div class="curso">
+        <h3>Beatmaking Creativo</h3>
+        <p><strong>profesor:</strong> DJ Flow</p>
+        <p class="justificado">Crea beats únicos con sampling, loops, capas rítmicas y herramientas digitales.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 📩 Contacto -->
+  <section id="contacto" class="contacto">
+    <h2>Solicita Información</h2>
+    <p class="justificado">¿Quieres saber más sobre horarios, precios o certificaciones? Escríbenos con tu consulta y te responderemos pronto.</p>
+    <form class="formulario-contacto">
+      <div class="campo">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" placeholder="Tu nombre" required />
+      </div>
+      <div class="campo">
+        <label for="email">Correo</label>
+        <input type="email" id="email" placeholder="tu@correo.com" required />
+      </div>
+      <div class="campo">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" rows="4" placeholder="Curso que te interesa..." required></textarea>
+      </div>
+      <button type="submit" class="btn-enviar">Enviar</button>
+    </form>
+  </section>
+
+  <!-- 👣 Footer -->
+  <footer class="footer">
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    <a href="#" class="btn-subir">↑</a>
+    <p class="copyright">© 2025 Universal Music. Todos los derechos reservados.</p>
+    <span class="aviso-legal">Aviso Legal</span>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/tu-codigo.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>

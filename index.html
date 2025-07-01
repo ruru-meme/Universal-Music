@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universal Music | Escuela de Música y Producción Digital</title>
+  <!-- Enlace a CSS -->
+  <link rel="stylesheet" href="estilos.css">
+  <!-- Fuente e íconos -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+  <!-- ========== ENCABEZADO Y MENÚ ========== -->
+  <header>
+    <nav id="navbar" class="navbar" role="navigation" aria-label="Menú principal">
+      <div class="logo">
+  <img src="imagenes/logo.png" alt="Logo Universal Music">
+  <span class="nombre-sitio">Universal Music</span>
+</div>
+
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre">Sobre Nosotros</a></li>
+        <li><a href="#ofrecemos">Servicios</a></li>
+        <li><a href="#cursos">Cursos</a></li>
+        <li><a href="#beats">Beats</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#eventos">Eventos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========== CARRUSEL ========== -->
+<section id="inicio" class="hero">
+  <div class="carrusel">
+    <div class="slide activo" style="background-image: url('imagenes/carusel\,1-fon2.webp');">
+      <div class="frase">Educamos con ritmo, producimos con pasión</div>
+    </div>
+    <div class="slide" style="background-image: url('imagenes/carrusel-1-fon.jpg');">
+      <div class="frase">Convierte tu creatividad en música</div>
+    </div>
+    <div class="slide" style="background-image: url('imagenes/carruel\,1-fon3.webp');">
+      <div class="frase">¡Haz sonar tu talento con nosotros!</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== SOBRE NOSOTROS ========== -->
+<section id="sobre" class="sobre-nosotros">
+  <div class="contenedor-sobre-dos-columnas">
+    <div class="columna-imagen">
+      <img src="imagenes/nosotros-clase.jpg" alt="Estudio musical" loading="lazy">
+    </div>
+    <div class="columna-texto">
+      <h2>Sobre Nosotros</h2>
+      <p>
+        En <strong>Universal Music</strong>, formamos artistas y productores digitales con pasión. Nuestra escuela combina creatividad, tecnología y experiencia para ofrecer una educación musical de calidad.
+      </p>
+      <p>
+        Nuestra <strong>misión</strong> es empoderar a jóvenes talentos y artistas emergentes a través de la formación artística y técnica.
+      </p>
+      <p>
+        Nuestra <strong>visión</strong> es ser un referente en educación musical digital, conectando generaciones con las herramientas del futuro.
+      </p>
+      
+    </div>
+  </div>
+</section>
+
+<!-- ========== ¿QUÉ OFRECEMOS? ========== -->
+<section id="ofrecemos" class="ofrecemos">
+  <div class="contenedor-ofrecemos">
+    <h2>¿Qué ofrecemos?</h2>
+    <div class="servicios">
+      <div class="servicio">
+        <i class="fas fa-headset" aria-hidden="true"></i>
+        <h3>Asesoría Musical</h3>
+        <p>Te guiamos con orientación personalizada en tu camino musical.</p>
+        <a href="#contacto" class="btn-mas" aria-label="Solicitar asesoría musical">Solicitar</a>
+      </div>
+      <div class="servicio">
+        <i class="fas fa-music" aria-hidden="true"></i>
+        <h3>Creación de Beats</h3>
+        <p>Encuentra beats únicos o crea los tuyos con nuestra ayuda.</p>
+        <a href="beats.html" class="btn-mas" aria-label="Explorar tienda de beats">Ver Beats</a>
+      </div>
+      <div class="servicio">
+        <i class="fas fa-sliders-h" aria-hidden="true"></i>
+        <h3>Producción Digital</h3>
+        <p>Aprende a producir desde cero o mejora tu técnica.</p>
+        <a href="#cursos" class="btn-mas" aria-label="Ver cursos de producción digital">Ver Cursos</a>
+      </div>
+      <div class="servicio">
+        <i class="fas fa-microphone-alt" aria-hidden="true"></i>
+        <h3>Grabación</h3>
+        <p>Accede a espacios equipados para grabar tu proyecto musical.</p>
+        <a href="#eventos" class="btn-mas" aria-label="Ver disponibilidad de grabación">Ver más</a>
+      </div>
+      <div class="servicio">
+        <i class="fas fa-wave-square" aria-hidden="true"></i>
+        <h3>Edición de Audio</h3>
+        <p>Mejora tu sonido con mezcla y edición profesional.</p>
+        <a href="#contacto" class="btn-mas" aria-label="Solicitar servicio de edición de audio">Solicitar</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CURSOS Y FORMACIÓN ========== -->
+<section id="cursos" class="cursos">
+  <div class="contenedor-cursos">
+    <h2>Cursos y Formación</h2>
+    <p class="intro">Descubre nuestra oferta educativa adaptada a todos los niveles y estilos.</p>
+
+    <div class="lista-cursos">
+      <div class="curso">
+        <h3>Producción Musical Básica</h3>
+        <p>🎧 Modalidad: Virtual<br>⏱ Duración: 6 semanas<br>💵 Precio: $80</p>
+        <a href="cursos.html" class="btn-curso">Inscribirme</a>
+      </div>
+
+      <div class="curso">
+        <h3>Creación de Beats Pro</h3>
+        <p>🎧 Modalidad: Presencial<br>⏱ Duración: 4 semanas<br>💵 Precio: $100</p>
+        <a href="cursos.html" class="btn-curso">Inscribirme</a>
+      </div>
+
+      <div class="curso">
+        <h3>Edición y Mezcla de Audio</h3>
+        <p>🎧 Modalidad: Virtual<br>⏱ Duración: 5 semanas<br>💵 Precio: $90</p>
+        <a href="cursos.html" class="btn-curso">Inscribirme</a>
+      </div>
+    </div>
+
+    <div class="ver-todos">
+      <a href="cursos.html" class="btn-ver-todos">Ver todos los cursos</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== BEATS DESTACADOS ========== -->
+<section id="beats" class="beats">
+  <div class="contenedor-beats">
+    <h2>Beats Destacados</h2>
+    <p class="intro">Escucha nuestras pistas más populares y encuentra el ritmo perfecto para ti.</p>
+
+    <div class="lista-beats">
+      <div class="beat">
+        <h3>Chill Vibes</h3>
+        <p>🎼 Género: Lo-Fi</p>
+        <audio controls>
+          <source src="beats/beat1.mp3" type="audio/mpeg">
+          Tu navegador no soporta el reproductor de audio.
+        </audio>
+        <a href="beats.html" class="btn-beat">Comprar</a>
+      </div>
+
+      <div class="beat">
+        <h3>Trap Street</h3>
+        <p>🎼 Género: Trap</p>
+        <audio controls>
+          <source src="beats/beat2.mp3" type="audio/mpeg">
+          Tu navegador no soporta el reproductor de audio.
+        </audio>
+        <a href="beats.html" class="btn-beat">Comprar</a>
+      </div>
+
+      <div class="beat">
+        <h3>Latino Fire</h3>
+        <p>🎼 Género: Reggaetón</p>
+        <audio controls>
+          <source src="beats/beat3.mp3" type="audio/mpeg">
+          Tu navegador no soporta el reproductor de audio.
+        </audio>
+        <a href="beats.html" class="btn-beat">Comprar</a>
+      </div>
+    </div>
+
+    <div class="ver-todos">
+      <a href="beats.html" class="btn-ver-todos">Ver tienda completa</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== TESTIMONIOS ========== -->
+<section id="testimonios" class="testimonios">
+  <div class="contenedor-testimonios">
+    <h2>Lo que dicen nuestros alumnos</h2>
+    <p class="intro">Historias reales de transformación y éxito musical</p>
+
+    <div class="lista-testimonios">
+
+      <div class="comentario">
+        <p>"Con Universal Music descubrí mi estilo y mi voz. ¡Gracias!"</p>
+        <h4>Camila R.</h4>
+        <span>Estudiante de canto</span>
+      </div>
+
+      <div class="comentario">
+        <p>"Los cursos son prácticos y bien explicados. Hoy produzco mis propios beats."</p>
+        <h4>Kevin M.</h4>
+        <span>Productor independiente</span>
+      </div>
+
+      <div class="comentario">
+        <p>"Mi hijo aprendió muchísimo y ahora compone sus propias canciones."</p>
+        <h4>Sra. López</h4>
+        <span>Mamá de estudiante</span>
+      </div>
+
+      <div class="comentario">
+        <p>"Gracias a su asesoría, lancé mi primer EP. ¡Totalmente recomendado!"</p>
+        <h4>Daniela G.</h4>
+        <span>Artista emergente</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== EVENTOS ========== -->
+<section id="eventos" class="eventos">
+  <div class="contenedor-eventos">
+    <h2>Próximos Eventos</h2>
+    <p class="intro">Talleres, seminarios y clases destacadas</p>
+
+    <div class="swiper carrusel-nuevo">
+      <div class="swiper-wrapper">
+        <!-- Evento 1 -->
+        <div class="swiper-slide tarjeta-evento">
+          <h3>🎹 Taller FL Studio</h3>
+          <p>🗓 10 jul · Virtual</p>
+          <span>Producción musical desde cero con FL Studio.</span>
+          <a href="eventos.html" class="btn-evento">Inscribirme</a>
+        </div>
+
+        <!-- Evento 2 -->
+        <div class="swiper-slide tarjeta-evento">
+          <h3>🎙 Masterclass Vocal</h3>
+          <p>🗓 12 jul · Presencial</p>
+          <span>Técnicas vocales para estudio profesional.</span>
+          <a href="eventos.html" class="btn-evento">Inscribirme</a>
+        </div>
+
+        <!-- Evento 3 -->
+        <div class="swiper-slide tarjeta-evento">
+          <h3>🎧 Beat Battle en Vivo</h3>
+          <p>🗓 20 jul · Híbrido</p>
+          <span>Demuestra tu talento en tiempo real.</span>
+          <a href="eventos.html" class="btn-evento">Inscribirme</a>
+        </div>
+
+        <!-- Evento 4 -->
+        <div class="swiper-slide tarjeta-evento">
+          <h3>🎼 Círculo de Composición</h3>
+          <p>🗓 18 jul · Presencial</p>
+          <span>Sesiones colaborativas para crear canciones.</span>
+          <a href="eventos.html" class="btn-evento">Inscribirme</a>
+        </div>
+      </div>
+
+      <!-- Botones de navegación -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ========== CONTACTO RÁPIDO ========== -->
+<section id="contacto" class="contacto">
+  <div class="contenedor-contacto">
+    <h2>Contáctanos</h2>
+    <p class="intro">¿Tienes dudas o deseas más información? Escríbenos aquí:</p>
+
+    <form class="formulario" action="#" method="POST">
+      <div class="campo">
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+      </div>
+
+      <div class="campo">
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" name="correo" placeholder="ejemplo@email.com" required>
+      </div>
+
+      <div class="campo">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+      </div>
+
+      <button type="submit" class="btn-enviar">Enviar mensaje</button>
+      <p class="enlace-contacto">
+  ¿Necesitas más información? <a href="contacto.html">Ir a la página de contacto completo</a>
+</p>
+
+    </form>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer" role="contentinfo">
+  <div class="contenedor-footer">
+    <div class="social-icons">
+      <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://wa.me/50760000000" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    </div>
+
+    <p class="copyright">© Universal Music - Escuela de Música y Producción Digital</p>
+    <a href="aviso-legal.html" class="aviso-legal">Aviso Legal / Políticas</a>
+  </div>
+</footer>
+
+<!-- BOTÓN FLOTANTE PARA VOLVER ARRIBA -->
+<a href="#inicio" class="btn-subir-fijo" aria-label="Volver al inicio"><i class="fas fa-chevron-up"></i></a>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<!-- Tu script -->
+<script src="script.js"></script>
+
+</body>
+</html> -->

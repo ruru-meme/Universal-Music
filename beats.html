@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Beats | Universal Music</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <link rel="icon" href="img/favicon.png" type="image/png" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</head>
+<body>
+
+  <!-- 🔝 Navbar -->
+  <header id="navbar" class="navbar">
+    <div class="logo">
+      <img src="imagenes/logo.png" alt="Universal Music">
+      <span class="nombre-sitio">Universal Music</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="beats.html" class="activo">Beats</a></li>
+      <li><a href="cursos.html">Cursos</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </header>
+
+
+  <!-- 🎶 Sección Beats -->
+  <section class="beats">
+    <h2>Beats</h2>
+    <p class="intro">Escucha, selecciona y descarga los beats que mejor se adapten a tu estilo.</p>
+
+    <!-- Opcional: Filtros por género -->
+    <!-- <div class="filtros">
+      <button class="filtro">Todos</button>
+      <button class="filtro">Hip-Hop</button>
+      <button class="filtro">Trap</button>
+      <button class="filtro">Reggaetón</button>
+    </div> -->
+
+    <!-- 🎵 Beats organizados por género -->
+<section class="beats-app">
+
+
+  <!-- 🎵 Hip-Hop -->
+  <div class="genero">
+    <h3>Hip-Hop</h3>
+    <div class="pista">
+      <div class="info">
+        <strong>Night Vibes</strong>
+        <p>$9.99</p>
+        <audio controls src="beats/night-vibes.mp3"></audio>
+      </div>
+      <a href="#" class="btn-comprar">Comprar</a>
+    </div>
+  </div>
+
+  <!-- 🎵 Trap -->
+  <div class="genero">
+    <h3>Trap</h3>
+    <div class="pista">
+      <div class="info">
+        <strong>Urban Flow</strong>
+        <p>$11.99</p>
+        <audio controls src="beats/urban-flow.mp3"></audio>
+      </div>
+      <a href="#" class="btn-comprar">Comprar</a>
+    </div>
+  </div>
+
+  <!-- 🎵 Reggaetón -->
+  <div class="genero">
+    <h3>Reggaetón</h3>
+    <div class="pista">
+      <div class="info">
+        <strong>Ritmo Caliente</strong>
+        <p>$13.99</p>
+        <audio controls src="beats/ritmo-caliente.mp3"></audio>
+      </div>
+      <a href="#" class="btn-comprar">Comprar</a>
+    </div>
+  </div>
+</section>
+
+
+  <!-- 📩 Contacto rápido -->
+  <section id="contacto" class="contacto">
+    <h2>Contáctanos</h2>
+    <p>¿Tienes dudas o necesitas un beat personalizado? Escríbenos.</p>
+    <form class="formulario-contacto">
+      <div class="campo">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" placeholder="Tu nombre" />
+      </div>
+      <div class="campo">
+        <label for="email">Correo</label>
+        <input type="email" id="email" placeholder="tu@correo.com" />
+      </div>
+      <div class="campo">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" rows="4" placeholder="Escribe tu mensaje..."></textarea>
+      </div>
+      <button type="submit" class="btn-enviar">Enviar</button>
+    </form>
+  </section>
+
+  <!-- 👣 Footer -->
+  <footer class="footer" role="contentinfo">
+  <div class="contenedor-footer">
+    <div class="social-icons">
+      <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://wa.me/50760000000" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    </div>
+
+    <p class="copyright">© Universal Music - Escuela de Música y Producción Digital</p>
+    <a href="aviso-legal.html" class="aviso-legal">Aviso Legal / Políticas</a>
+  </div>
+</footer>
+
+<!-- BOTÓN FLOTANTE PARA VOLVER ARRIBA -->
+<a href="#inicio" class="btn-subir-fijo" aria-label="Volver al inicio"><i class="fas fa-chevron-up"></i></a>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<!-- Tu script -->
+<script src="script.js"></script>
+
+</body>
+</html>
